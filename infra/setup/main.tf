@@ -27,3 +27,8 @@ provider "aws" {
     }
   }
 }
+
+#provider "aws" {
+#  profile = "udemy1"  # Match this with your AWS credentials profile
+#  region  = "eu-west-2"       # Ensure this is the correct region
+#}
